@@ -43,7 +43,7 @@ class Compte {
 
 public function virement ($compte1,  $montant){
 $this-> $compte1 -> debiter ($montant);
-$this-> $compte1 -> crediter ($compte2);
+$this-> $compte1 -> crediter ($compte2); //reuiuefef
 
 }
 
