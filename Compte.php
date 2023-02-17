@@ -41,11 +41,13 @@ class Compte {
         $this-> _solde  -= $montant ;
     }
 
-public function virement ($compte1,  $montant){
-$this-> $compte1 -> debiter ($montant);
-$this-> $compte1 -> crediter ($compte2); //reuiuefef
+    public function virement (Compte $destinataire,  float $montant) {
+     
+      $this->debiter($montant)  ;
+      $destinataire->crediter($montant);
+    }
 
-}
+
 
 }
 

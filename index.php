@@ -23,15 +23,17 @@ $titulaire1->afficherTitulaire () ;
 // $compte1->debiter(1000);
 
 // echo $compte1-> getSolde();
+ $compte1->virement($compte2, 100);
+  
+    
+      
+   
 
-echo $compte1-> getSolde();
- virement ($compte1, $compte2, $montant){
-    $this-> $compte1 -> debiter (500);
-    $this-> $compte2 -> crediter ($montant);
- };
 
+echo $compte1-> getSolde ();
+echo "<br>";
+echo $compte2-> getSolde ();
 
-echo $compte2-> getSolde();
 
 
 ?>
