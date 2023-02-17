@@ -33,7 +33,7 @@ $titulaire1->afficherTitulaire () ;
 echo $compte1-> getSolde ();
 echo "<br>";
 echo $compte2-> getSolde ();
-//ejjjee
+//ejjjeer'"trgr
 
 
 ?>
